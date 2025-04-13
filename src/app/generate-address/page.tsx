@@ -9,6 +9,7 @@ import 'leaflet/dist/leaflet.css'
 
 import { useAddressGeneration } from '@/features/addresses/api'
 import { AddressGenerationResponse } from '@/features/addresses/types'
+export const dynamic = "force-dynamic";
 
 // 기본 마커 아이콘 설정
 const defaultIcon = new L.Icon({
@@ -89,7 +90,7 @@ const GenerateAddressPage = () => {
   }, [selectedLocation, sortingType, generateAddress])
 
   const handleCopyAddress = () => {
-    if (generatedAddress) {
+    if (typeof window !== 'undefined' && generatedAddress) {
       navigator.clipboard.writeText(generatedAddress.digital_address)
         .then(() => alert('주소가 복사되었습니다.'))
         .catch(err => console.error('복사 중 오류 발생:', err))
