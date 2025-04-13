@@ -1,4 +1,5 @@
 "use client"
+export const dynamic = "force-dynamic";
 
 import { useState, useCallback } from 'react'
 import * as LucideIcons from 'lucide-react'
@@ -9,7 +10,7 @@ import 'leaflet/dist/leaflet.css'
 
 import { useAddressGeneration } from '@/features/addresses/api'
 import { AddressGenerationResponse } from '@/features/addresses/types'
-export const dynamic = "force-dynamic";
+
 
 // 기본 마커 아이콘 설정
 const defaultIcon = new L.Icon({
