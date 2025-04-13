@@ -1,5 +1,8 @@
-import dynamic from "next/dynamic"
+'use client'
 
+import dynamic from 'next/dynamic'
+
+// 클라이언트에서만 렌더링하도록 설정된 컴포넌트
 const GenerateAddressPage = dynamic(() => import('@/components/map/GenerateAddressPage'), {
   ssr: false,
 })
