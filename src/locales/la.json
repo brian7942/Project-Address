@@ -1,0 +1,48 @@
+{
+    "common": {
+      "home": "ໜ້າຫຼັກ",
+      "map": "ແຜນທີ່",
+      "buildings": "ອາຄານ",
+      "generateAddress": "ສ້າງທີ່ຢູ່",
+      "searchPlaceholder": "ປ້ອນເມືອງ ຫຼື ທີ່ຢູ່",
+      "search": "ຄົ້ນຫາ",
+      "locationNotFound": "ບໍ່ພົບສະຖານທີ່.",
+      "copy": "ສຳເນົາ",
+      "close": "ປິດ",
+      "latitude": "ເສັ້ນຂະໜານ",
+      "longitude": "ເສັ້ນແວງ"
+    },
+    "home": {
+      "title": "ລະບົບທີ່ຢູ່ດິຈິຕອນທີ່ຫຼາກຫຼາຍ",
+      "description": "ນຳໃຊ້ເຕັກໂນໂລຊີ AI ເພື່ອມອບທີ່ຢູ່ດິຈິຕອນທີ່ຖືກຕ້ອງແລະເອກະລັກສະເພາະໃຫ້ແກ່ອາຄານແລະສະຖານທີ່ທັງໝົດໃນປະເທດລາວ.",
+      "findAddress": "ຄົ້ນຫາທີ່ຢູ່",
+      "learnMore": "ຮຽນຮູ້ເພີ່ມເຕີມ"
+    },
+    "map": {
+      "selectLocation": "ເລືອກສະຖານທີ່",
+      "selectedLocation": "ສະຖານທີ່ທີ່ເລືອກ"
+    },
+    "address": {
+      "generation": {
+        "title": "ສ້າງທີ່ຢູ່ດິຈິຕອນ",
+        "sortingMethod": "ເລືອກວິທີຈັດລຽງ",
+        "roadBased": "ອີງຕາມເສັ້ນທາງ",
+        "gridBased": "ອີງຕາມຕາຕະລາງ",
+        "hybrid": "ປະສົມ",
+        "generate": "ສ້າງທີ່ຢູ່",
+        "generating": "ກຳລັງສ້າງ...",
+        "copyAddress": "ສຳເນົາທີ່ຢູ່",
+        "addressCopied": "ສຳເນົາທີ່ຢູ່ແລ້ວ",
+        "details": {
+          "digitalAddress": "ທີ່ຢູ່ດິຈິຕອນ",
+          "countryCode": "ລະຫັດປະເທດ",
+          "provinceCode": "ລະຫັດແຂວງ",
+          "cityCode": "ລະຫັດເມືອງ",
+          "blockNumber": "ເລກບໍລິເວນ",
+          "buildingNumber": "ເລກອາຄານ",
+          "sortingType": "ປະເພດຈັດລຽງ",
+          "confidence": "ຄວາມເຊື່ອຖື"
+        }
+      }
+    }
+  }

@@ -1,0 +1,48 @@
+{
+    "common": {
+      "home": "Home",
+      "map": "Map",
+      "buildings": "Buildings",
+      "generateAddress": "Generate Address",
+      "searchPlaceholder": "Enter city or address",
+      "search": "Search",
+      "locationNotFound": "Location not found.",
+      "copy": "Copy",
+      "close": "Close",
+      "latitude": "Latitude",
+      "longitude": "Longitude"
+    },
+    "home": {
+      "title": "Innovative Digital Address System",
+      "description": "Using AI technology to assign accurate and unique digital addresses to all buildings and locations in Laos.",
+      "findAddress": "Find Address",
+      "learnMore": "Learn More"
+    },
+    "map": {
+      "selectLocation": "Select Location",
+      "selectedLocation": "Selected Location"
+    },
+    "address": {
+      "generation": {
+        "title": "Generate Digital Address",
+        "sortingMethod": "Select Sorting Method",
+        "roadBased": "Road-based",
+        "gridBased": "Grid-based",
+        "hybrid": "Hybrid",
+        "generate": "Generate Address",
+        "generating": "Generating...",
+        "copyAddress": "Copy Address",
+        "addressCopied": "Address copied to clipboard.",
+        "details": {
+          "digitalAddress": "Digital Address",
+          "countryCode": "Country Code",
+          "provinceCode": "Province Code",
+          "cityCode": "City Code",
+          "blockNumber": "Block Number",
+          "buildingNumber": "Building Number",
+          "sortingType": "Sorting Type",
+          "confidence": "Confidence"
+        }
+      }
+    }
+  }
